@@ -46,15 +46,15 @@ You can change the model parameters using:
 --units xxx 			size of hidden units (default 200)
 --embed_units xxx		dimension of word embedding (default 200)
 --batch_size xxx 		batch size in training process (default 128)
---per_checkpoint xxx			steps to save and evaluate the model (default 1,000)
+--per_checkpoint xxx		steps to save and evaluate the model (default 1,000)
 --layers xxx			number of layers of RNN (default 2)
 --triple_num xxx		max number of triple for each query (default 10)
 --data_dir xxx			data directory (default "./data")
 --train_dir xxx			training directory (default "./train")
 --is_train xxx			whether to inference (default True)
---log_parameters xxx			whether to show the parameters (default True)
---inference_version xxx			the version of checkpoint (default 0)
---inference_path xxx			the output path of inference (default "")
+--log_parameters xxx		whether to show the parameters (default True)
+--inference_version xxx		the version of checkpoint (default 0)
+--inference_path xxx		the output path of inference (default "")
 ```
 
 ## Paper
