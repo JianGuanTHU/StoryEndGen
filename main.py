@@ -17,7 +17,7 @@ tf.app.flags.DEFINE_integer("batch_size", 128, "Batch size to use during trainin
 tf.app.flags.DEFINE_string("data_dir", "./data", "Data directory")
 tf.app.flags.DEFINE_string("train_dir", "./train", "Training directory.")
 tf.app.flags.DEFINE_integer("per_checkpoint", 1000, "How many steps to do per checkpoint.")
-tf.app.flags.DEFINE_integer("inference_version", 12272, "The version for inferencing.")
+tf.app.flags.DEFINE_integer("inference_version", 0, "The version for inferencing.")
 tf.app.flags.DEFINE_integer("triple_num", 10, "max number of triple for each query")
 tf.app.flags.DEFINE_boolean("log_parameters", True, "Set to True to show the parameters")
 tf.app.flags.DEFINE_string("inference_path", "", "Set filename of inference, default isscreen")
