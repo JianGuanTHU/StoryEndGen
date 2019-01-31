@@ -59,7 +59,7 @@ You can change the model parameters using:
 
 ## Paper
 
-Jian Guan, Yansen Wang, Minlie Huang. Story Ending Generation with Incremental Encoding and Commonsense Knowledge. In AAAI, Honolulu, USA
+Jian Guan*, Yansen Wang*, Minlie Huang. Story Ending Generation with Incremental Encoding and Commonsense Knowledge. In AAAI, Honolulu, USA
 
 ## Main Results
 
