@@ -17,7 +17,7 @@ This project is a tensorflow implementation of our work.
 
 - Dataset
 
-  Our dataset contains five-sentence stories from [ROCStories corpus](http://cs.rochester.edu/nlp/rocstories/) and corresponding commonsense knowledge graphs retrieved from [ConceptNet](http://www.conceptnet.io/).  And only those relations occurring in the dataset is retained.
+  Our dataset contains five-sentence stories from [ROCStories corpus](http://cs.rochester.edu/nlp/rocstories/) (Note that we just split the trainging data of the original corpus into the new trainging and testing set) and corresponding commonsense knowledge graphs retrieved from [ConceptNet](http://www.conceptnet.io/).  And only those relations occurring in the dataset is retained.
 
   Please download the pre-trained word vectors [Glove](https://nlp.stanford.edu/projects/glove/) to data directory. And in our experiments glove.6B.200d.txt (dimension of word embedding is 200) is adopted.
 
