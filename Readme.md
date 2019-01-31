@@ -62,6 +62,6 @@ You can change the model parameters using:
 Jian Guan*, Yansen Wang*, Minlie Huang. Story Ending Generation with Incremental Encoding and Commonsense Knowledge. In AAAI, Honolulu, USA
 
 ## Main Results
-
+Note that there is something wrong with bleu-2 in the result reported in the paper.
 ![](result.png)
 
