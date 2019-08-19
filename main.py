@@ -157,8 +157,8 @@ def gen_batched_data(data):
             for k in range(len(entity[i][j])):
                 if len(entity[i][j][k]) < max_triple_length[i]:
                     entity[i][j][k] = entity[i][j][k] + [['_NAF_H', '_NAF_R', '_NAF_T']] * (max_triple_length[i] - len(entity[i][j][k]))
-            if len(entity[i][j]) < max_response_length:
-                entity[i][j] = entity[i][j] + [[['_NAF_H', '_NAF_R', '_NAF_T']] * max_triple_length[i]] * (max_response_length[i] - len(entity[i][j]))
+            if len(entity[i][j]) < (max_response_length[i] + 1):
+                entity[i][j] = entity[i][j] + [[['_NAF_H', '_NAF_R', '_NAF_T']] * max_triple_length[i]] * (max_response_length[i] + 1 - len(entity[i][j]))
     
     entity_0, entity_1, entity_2, entity_3 = entity[0], entity[1], entity[2], entity[3]
     entity_mask = [[], [], [], []]
